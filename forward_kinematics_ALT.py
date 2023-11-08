@@ -11,16 +11,15 @@ def forward_kinematics(joints):
     link3x = 0.050
     link3z = 0.150
     link4x = 0.150
+    # Define joint angles
+    theta1 = joints[0]
+    theta2 = joints[1]
+    theta3 = joints[2]
 
     # Define screw axes
     S1 = np.array([0, 0, 1, 0, 0, 0])
     S2 = np.array([0, 1, 0, -link1z, 0, 0])
     S3 = np.array([0, 1, 0, -(link1z + link2z), 0, 0])
-
-    # Define joint angles
-    theta1 = joints[0]
-    theta2 = joints[1]
-    theta3 = joints[2]
 
     # Compute the exponential of the screw coordinates
     M1 = mr.MatrixExp6(mr.VecTose3(S1 * theta1))
