@@ -1,4 +1,4 @@
-# EE 144: Introduction to Robotics - Lab Section
+# EE 144: Foundation of Robotics - Lab Section
 
 Welcome to the EE 144 lab repository for the course "Foundation of Robotics" at UC Riverside. This repository contains the code, documentation, and resources for the hands-on labs integrated into the course.
 
