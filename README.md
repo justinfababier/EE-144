@@ -16,4 +16,4 @@ EE 144 provides foundational knowledge on the analysis, control, and programming
 
 ## Disclaimer
 
-This repository is intended for personal documentation purposes only. I do not advocate academic dishonesty. Note that the code provided may or may not be functional and should be used at your own risk.
+This repository is intended for personal documentation purposes only. I do not advocate academic dishonesty.
